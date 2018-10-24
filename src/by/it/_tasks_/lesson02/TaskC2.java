@@ -31,16 +31,14 @@ class TaskC2 {
         String c1 = Integer.toBinaryString(c);
         System.out.println("BIN:" + a1 + "+" + b1 + "=" + c1);
         // Шеснадцатиричная форма
-        String a2 = Integer.toHexString(a).toUpperCase();
-        String b2 = Integer.toHexString(b).toUpperCase();
-        String c2 = Integer.toHexString(c).toUpperCase();
+        String a2 = Integer.toHexString(a);
+        String b2 = Integer.toHexString(b);
+        String c2 = Integer.toHexString(c);
         System.out.println("HEX:" + a2 + "+" + b2 + "=" + c2);
         // Восьмиричная форма
         String a3 = Integer.toOctalString(a);
         String b3 = Integer.toOctalString(b);
         String c3 = Integer.toOctalString(c);
         System.out.println("OCT:" + a3 + "+" + b3 + "=" + c3);
-
     }
-
 }
