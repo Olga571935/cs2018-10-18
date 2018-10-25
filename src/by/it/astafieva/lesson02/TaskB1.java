@@ -19,5 +19,16 @@ int i=sc.nextInt();
 
  */
 
+import java.util.Scanner;
+
 class TaskB1 {
+    public static void main(String args[]){
+        System.out.print("Введите любое целое число от 1 до 10, чтобы посчитать его квадрат: ");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = a*a;
+        System.out.println ("Квадрат вашего числа: " + b);
+
+
+    }
 }

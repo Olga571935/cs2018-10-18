@@ -9,11 +9,11 @@ package by.it.astafieva.lesson02;
 */
 
 class TaskA2 {
-    public static void main(String[] args) {
-        System.out.println("Я начинаю изучать Java!");
-        System.out.println("Я начинаю изучать Java!");
-        System.out.println("Я начинаю изучать Java!");
-        System.out.println("Я начинаю изучать Java!");
-        System.out.println("Я начинаю изучать Java!");
-    }
+public static void main(String[] arg){
+    System.out.println("Я начинаю изучать Java!");
+    System.out.println("Я начинаю изучать Java!");
+    System.out.println("Я начинаю изучать Java!");
+    System.out.println("Я начинаю изучать Java!");
+    System.out.println("Я начинаю изучать Java!");
+}
 }
