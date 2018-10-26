@@ -54,6 +54,5 @@ class TaskA1 {
         double r1 = (double) r;
         double t1 = (double) t;
         System.out.println(c1 + " " + d1 + " " + f1 + " " + r1 + " " + t1);
-
     }
     }
