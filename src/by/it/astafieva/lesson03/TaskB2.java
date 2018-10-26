@@ -35,28 +35,23 @@ class TaskB2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        Scanner sc1 = new Scanner(System.in);
         int b = sc.nextInt();
-        Scanner sc2 = new Scanner(System.in);
         int c = sc.nextInt();
-        double dis; double x1; double x2;
-        a*a*x1 + b*x1 + c = 0;
-        a*a*x2 + b*x2 + c = 0;
-        if( dis > 0)
+        double x1; double x2;
+        double dis = DD(a, b, c );
+        if(dis > 0) {
         x1 = (-b + Math.sqrt(dis))/ 2*a;
         x2 = (-b - Math.sqrt(dis))/ 2*a;
-        System.out.println(x1 + " " + x2);
+        System.out.println(x1 + " " + x2);}
         if( dis < 0)
         System.out.println( "Отрицательный дискриминант" );
-if (dis = 0)
-    x1=x2=-b/(2*a);
-        System.out.println( x1 );
+        if (dis == 0) {
+         x1=-b/(2*a);
+        System.out.println( x1 );}
     }
-
-    public static double dis(int a, int b, int c) {
+    public static double DD(int a, int b, int c) {
         double dis;
-        return dis = b * b - 4 * a * c;
+        dis = b * b - 4 * a * c;
+        return dis;
     }
-
-
 }
