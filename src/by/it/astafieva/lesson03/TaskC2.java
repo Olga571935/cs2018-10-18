@@ -25,8 +25,17 @@ public class TaskC2 {
 
 
 
-//    public static void main(String[] args) {
-//        System.out.println(sumDigitsInNumber(5467));
-//    }
+    public static void main(String[] args) {
+        System.out.println(sumDigitsInNumber(5467));
+    }
+
+    public static int sumDigitsInNumber(int a) {
+        int b= a/1000;
+        int c=a%1000/100;
+        int d = (a-(b*1000+c*100))/10;
+        int f = a-(b*1000+c*100+d*10);
+
+         return b+c+d+f;
+    }
 
 }
