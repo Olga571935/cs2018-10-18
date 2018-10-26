@@ -41,7 +41,6 @@ class TaskA1 {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         System.out.print("Введите число b: ");
-        Scanner sc1 = new Scanner(System.in);
         int b = sc.nextInt();
         int c = a + b;
         int d = a - b;
@@ -49,7 +48,6 @@ class TaskA1 {
         int r = a / b;
         int t = a % b;
         System.out.println(c + " " + d + " " + f + " " + r + " " + t);
-
 
         double c1 = (double) c;
         double d1 = (double) d;

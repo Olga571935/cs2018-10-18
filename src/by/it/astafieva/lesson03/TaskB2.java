@@ -40,8 +40,8 @@ class TaskB2 {
         double x1; double x2;
         double dis = DD(a, b, c );
         if(dis > 0) {
-        x1 = (-b + Math.sqrt(dis))/ 2*a;
-        x2 = (-b - Math.sqrt(dis))/ 2*a;
+        x1 = (-b + Math.sqrt(dis))/ (2*a);
+        x2 = (-b - Math.sqrt(dis))/ (2*a);
         System.out.println(x1 + " " + x2);}
         if( dis < 0)
         System.out.println( "Отрицательный дискриминант" );
