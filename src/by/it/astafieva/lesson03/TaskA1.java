@@ -48,7 +48,6 @@ class TaskA1 {
         int r = a / b;
         int t = a % b;
         System.out.println(c + " " + d + " " + f + " " + r + " " + t);
-
         double c1 = (double) c;
         double d1 = (double) d;
         double f1 = (double) f;
