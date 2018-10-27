@@ -21,5 +21,16 @@ Lesson 03. Task A2. Стихотворение
 Для автоматической проверки откройте и запустите класс Testing
 */
 class TaskA2 {
+public static void main(String[] args) {
+    String a = "— Скажи-ка, дядя, ведь не даром" + "\n";
+    String b = "Москва, спаленная пожаром," + "\n" ;
+    String c = "Французу отдана?" + "\n";
+    String d = "Ведь были ж схватки боевые," + "\n";
+    String f = "Да, говорят, еще какие!" + "\n";
+    String o = "Недаром помнит вся Россия" + "\n";
+    String l = "Про день Бородина!" + "\n"  ;
+    System.out.println("Мое любимое стихотворение:");
+    System.out.println(a + b + c + d + f + o + l);
+}
 
 }
