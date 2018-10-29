@@ -31,15 +31,19 @@ public class TaskB1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int i = sc.nextInt();
-
+        int x;
             if (i % 4 == 0 && i%400 == 0)
-                System.out.println("Количество дней в году:366.");
+            { x = 366;
+                System.out.println("Количество дней в году:" + x);}
                 else if (i % 4 == 0 && i%100 == 0)
-                    System.out.println("Количество дней в году:365.");
+            { x = 365;
+                System.out.println("Количество дней в году:" + x); }
             else if (i % 4 == 0 )
-                System.out.println("Количество дней в году:366.");
+            { x = 366;
+                System.out.println("Количество дней в году:" + x);}
             else
-                System.out.println("Количество дней в году: 365");
+            { x = 365;
+                System.out.println("Количество дней в году:" + x); }
 
     }
 }
