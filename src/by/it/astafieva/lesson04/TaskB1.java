@@ -36,7 +36,8 @@ public class TaskB1 {
                 System.out.println("Количество дней в году:366.");
                 else if (i % 4 == 0 && i%100 == 0)
                     System.out.println("Количество дней в году:365.");
-
+            else if (i % 4 == 0 )
+                System.out.println("Количество дней в году:366.");
             else
                 System.out.println("Количество дней в году: 365");
 
