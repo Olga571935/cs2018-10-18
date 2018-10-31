@@ -34,16 +34,16 @@ public class TaskB1 {
         int x;
             if (i % 4 == 0 && i%400 == 0)
             { x = 366;
-                System.out.println("Количество дней в году:" + x);}
+                System.out.println("количество дней в году: " + x);}
                 else if (i % 4 == 0 && i%100 == 0)
             { x = 365;
-                System.out.println("Количество дней в году:" + x); }
+                System.out.println("количество дней в году: " + x); }
             else if (i % 4 == 0 )
             { x = 366;
-                System.out.println("Количество дней в году:" + x);}
+                System.out.println("количество дней в году: " + x);}
             else
             { x = 365;
-                System.out.println("Количество дней в году:" + x); }
+                System.out.println("количество дней в году: " + x); }
 
     }
 }

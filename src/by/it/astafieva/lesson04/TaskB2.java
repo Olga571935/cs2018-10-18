@@ -30,15 +30,21 @@ public class TaskB2 {
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
         int o = 1;
-        int i = 1;
-        while (size != i) {
-            System.out.print(o * i + " ");
-            i++;
+        int i;
+        for( i=1; i <= size; i++) {
 
-            {
-                System.out.println(o * i + " ");
+            while (o <= size) {
+                System.out.print(o * i + " ");
                 o++;
             }
+            o = 1;
+            System.out.println();
         }
     }
-}
+
+                }
+
+
+
+
+

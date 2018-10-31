@@ -1,7 +1,6 @@
 package by.it.astafieva.lesson04;
 /*
-С клавиатуры вводится некоторое число.
-Пусть считается сумма int sum=1+2+3+4+5+... и т.д.
+
 Каждая цифра суммы выводится в консоль через запятую (без пробела).
 Остановите вывод до того, как сумма превысит введенное число.
 
@@ -25,7 +24,23 @@ package by.it.astafieva.lesson04;
  */
 
 
+import java.util.Scanner;
 
 public class TaskB3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int i = sc.nextInt();
+        int t = 1;
+        int sum=0;
+     while (sum+t <= i){
 
+
+    sum= t+sum;
+         System.out.print(sum + ",");
+t++;
 }
+
+        }
+
+
+    }
