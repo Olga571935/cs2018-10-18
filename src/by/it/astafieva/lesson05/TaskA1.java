@@ -24,6 +24,7 @@ package by.it.astafieva.lesson05;
 */
 
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class TaskA1 {
